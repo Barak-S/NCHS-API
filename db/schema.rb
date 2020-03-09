@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 2020_03_05_133054) do
     t.string "state"
     t.string "count"
     t.string "cause"
+    t.string "year"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

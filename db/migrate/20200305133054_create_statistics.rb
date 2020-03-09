@@ -4,6 +4,7 @@ class CreateStatistics < ActiveRecord::Migration[6.0]
       t.string :state
       t.string :count
       t.string :cause 
+      t.string :year
       
       t.timestamps
     end
