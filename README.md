@@ -3,7 +3,7 @@
 # NCHS-API
 
 
-This project is using a PostgreSQL database. To get the project up and running, in the project directory, you must run:
+This project is a Ruby on Rails project that is using a PostgreSQL database. To get the project up and running, in the project directory, you must run:
 
 ### `rails db:create`
 ### `rails db:migrate`
