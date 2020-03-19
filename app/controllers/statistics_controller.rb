@@ -1,7 +1,7 @@
 class StatisticsController < ApplicationController
 
     def index
-        statistics=Statistic.all
+        statistics = Statistic.all
         render json: statistics, except:[:created_at, :updated_at]
     end
 
